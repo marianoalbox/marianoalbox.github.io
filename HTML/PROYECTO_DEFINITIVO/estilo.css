@@ -1,0 +1,32 @@
+html{
+	background-color: #87CEEB;
+}
+h1{
+	font-family: Forte;
+	font-size: 70px;
+	color: blue;
+	text-align: center;
+}
+h2{
+	font-family: Forte;
+	font-size: 30px;
+}
+nav{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial;
+}
+a{
+	font-size: 30px;
+	color: white;
+	font-family: Impact;
+}
+p{
+	font-family: Times;
+	font-size: 16px;
+}
+div{
+	background-color: #00FFFF
+}
