@@ -36,12 +36,15 @@ nav{
     float: right;
 }
 
+/*Aquí el display:flex;  está sola mente para que con el gap de 20px se aplique una separacíon de 20px entre una opción y otra del nav*/
 nav ul{
     display:flex;
     font-family: "Chivo Mono", monospace;
     gap: 20px;
 }
 
+/*El font-weigth sirve para darle grosor al texto, el tex-decoration para quitar el añadido que trae la letra al ser un href,
+el transform para poner las letras en mayúsculas y transition para establecer la duración de la animación cuando pasas el ratón por encima*/
 nav ul a{
     font-size: 1.2em;
     color: rgb(255, 0, 0);
@@ -51,8 +54,9 @@ nav ul a{
     transition: 0.5s ease;
 }
 
+/*El hover hace referencia a cuando pones el ratón sobre la palabra y el "not hover" para cuando NO está el ratón encima*/
 ul:hover a{
-    color:#30edf4;
+    color:#26d661;
 }
 
 ul:hover a:not(:hover){
@@ -61,6 +65,15 @@ ul:hover a:not(:hover){
     filter: blur(1px);
 }
 
-p{
+#cuerpo{
     color: rgb(6, 172, 0);
+    margin: 5px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+
+}
+
+#imgderecha{
+    float:right;
+    margin-left: 5px;
 }
