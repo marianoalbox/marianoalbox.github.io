@@ -1,0 +1,66 @@
+html{
+    background-color: rgb(13, 6, 85);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecera{
+    overflow: hidden;
+    padding: 1em;
+    width: 97.6%;
+    background-color: rgb(5, 2, 41);
+}
+
+#logo{
+    float: left;
+    margin-left: 5%;
+}
+
+#Nombre_pag{
+    position: absolute;
+    color: #a10000;
+    font-family:Times;
+    margin-top: 1.2%;
+    margin-left: 13%;
+    font-size: 2.5em;
+    
+}
+
+nav{
+    width: 70%;
+    margin-top: 2.5%;
+    margin-right: -3%;
+    float: right;
+}
+
+nav ul{
+    display:flex;
+    font-family: "Chivo Mono", monospace;
+    gap: 20px;
+}
+
+nav ul a{
+    font-size: 1.2em;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+ul:hover a{
+    color:#30edf4;
+}
+
+ul:hover a:not(:hover){
+    color: rgb(255, 0, 0);;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+p{
+    color: rgb(6, 172, 0);
+}
