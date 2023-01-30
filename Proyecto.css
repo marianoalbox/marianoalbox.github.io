@@ -16,7 +16,7 @@ html{
 
 #logo{
     float: left;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 #Nombre_pag{
@@ -24,7 +24,7 @@ html{
     color: #a10000;
     font-family:Times;
     margin-top: 1.2%;
-    margin-left: 13%;
+    margin-left: 11%;
     font-size: 2.5em;
     
 }
@@ -32,7 +32,7 @@ html{
 nav{
     width: 70%;
     margin-top: 2.5%;
-    margin-right: -3%;
+    margin-right: -2%;
     float: right;
 }
 
@@ -40,7 +40,7 @@ nav{
 nav ul{
     display:flex;
     font-family: "Chivo Mono", monospace;
-    gap: 20px;
+    gap: 15px;
 }
 
 /*El font-weigth sirve para darle grosor al texto, el tex-decoration para quitar el añadido que trae la letra al ser un href,
@@ -76,4 +76,47 @@ ul:hover a:not(:hover){
 #imgderecha{
     float:right;
     margin-left: 5px;
+}
+
+#hist{
+    color: #26d661;
+}
+
+#cuerpo_hist{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color:rgb(6, 172, 0);
+    font-size: 1.1em;
+}
+
+#foto_virus{
+    margin-left: 30%;
+}
+#foto_convenio{
+    height: 30%;
+    margin-left: 30%;;
+}
+
+section {
+    margin-left: 18%;
+    display: flex;
+    width: 900px;
+    height: 430px;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
 }
