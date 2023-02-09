@@ -10,7 +10,7 @@ html{
 #cabecera{
     overflow: hidden;
     padding: 1em;
-    width: 97.5%;
+    width: 98%;
     background-color: rgb(5, 2, 41);
 }
 
@@ -23,16 +23,16 @@ html{
     position: absolute;
     color: #a10000;
     font-family:Times;
-    margin-top: 1.2%;
-    margin-left: 11%;
+    margin-top: 2.7%;
+    margin-left: 12%;
     font-size: 2.5em;
     
 }
 
 nav{
     width: 70%;
-    margin-top: 2.5%;
-    margin-right: -2%;
+    margin-top: 3.5%;
+    margin-right: -25%;
     float: right;
 }
 
@@ -78,11 +78,11 @@ ul:hover a:not(:hover){
     margin-left: 5px;
 }
 
-#hist{
+#hist, #sist, #leng{
     color: #26d661;
 }
 
-#cuerpo_hist{
+#cuerpo_hist, #cuerpo_sist, #cuerpo_leng{
     margin-left: 1%;
     margin-right: 2%;
     color:rgb(6, 172, 0);
@@ -90,7 +90,7 @@ ul:hover a:not(:hover){
 }
 
 #foto_virus{
-    margin-left: 30%;
+    margin-left: 40%;
 }
 #foto_convenio{
     height: 30%;
@@ -98,7 +98,7 @@ ul:hover a:not(:hover){
 }
 
 #galeria {
-    margin-left: 18%;
+    margin-left: 30%;
     display: flex;
     width: 750px;
     height: 380px;
@@ -119,4 +119,36 @@ ul:hover a:not(:hover){
     width: 400px;
     opacity: 1;
     filter: contrast(120%);
+}
+
+#tipos_troy{
+    margin-left: 2%;
+}
+
+#tipos_troy a{
+    text-decoration:none;
+    color: rgb(6, 172, 0);
+    opacity: 100;
+}
+
+#footer{
+    margin-top: 4%;
+    width: 98%;
+    float: left;
+}
+
+#cuadro1, #cuadro2, #cuadro3{
+    font-family: "Chivo Mono", monospace;
+    color: rgb(6, 172, 0);
+    font-size: 1.3em;
+    text-align: center;
+    border: 2px solid green;
+    width: 25%;
+    height: 190px;
+    float: left;
+    margin-left: 7%;
+}
+
+#cuadro3 a{
+    color: rgb(6, 172, 0);
 }
