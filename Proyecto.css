@@ -32,7 +32,7 @@ html{
 nav{
     width: 70%;
     margin-top: 3.5%;
-    margin-right: -18%;
+    margin-right: -10%;
     float: right;
 }
 
@@ -78,15 +78,23 @@ ul:hover a:not(:hover){
     margin-left: 5px;
 }
 
-#hist, #sist, #leng, #contacto, #inicio{
+#hist, #sist, #leng, #contacto, #inicio, #noticias{
     color: #26d661;
 }
 
-#cuerpo_hist, #cuerpo_sist, #cuerpo_leng{
+#cuerpo_hist, #cuerpo_sist, #cuerpo_leng, #cuerpo_not{
     margin-left: 1%;
     margin-right: 2%;
     color:rgb(6, 172, 0);
     font-size: 1em;
+}
+
+#cuerpo_not h1{
+    font-size: 2.5em;
+}
+
+#cuerpo_not h2{
+    text-align: center;
 }
 
 #foto_virus{
@@ -141,11 +149,11 @@ ul:hover a:not(:hover){
 #cuadro1, #cuadro2, #cuadro3{
     font-family: "Chivo Mono", monospace;
     color: rgb(6, 172, 0);
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
     border: 2px solid green;
     width: 25%;
-    height: 190px;
+    height: 230px;
     float: left;
     margin-left: 7%;
 }
@@ -154,7 +162,63 @@ ul:hover a:not(:hover){
     color: rgb(6, 172, 0);
 }
 
+legend{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 label{
     color: #26d661;
     font-size: 1.3em;
+    position: relative;
+    left: 43%;
+}
+
+input{
+    font-size: 1.1em;
+    position: relative;
+    left: 31%;
+}
+
+#correo{
+    position: relative;
+    left: 36%;
+}
+
+#codigoP{
+    position: relative;
+    left: 40%;
+}
+
+textarea{
+    position: relative;
+    left: 6%;
+}
+
+#textCuadro{
+    position: relative;
+    left: 41%;
+}
+
+#borrar{
+    position: relative;
+    left: 3%;
+    font-size: 1.3em;
+    color: #26d661;
+    background-color: black;
+}
+
+#enviar{
+    position: relative;
+    left: 65%;
+    font-size: 1.3em;
+    color: #26d661;
+    background-color: black;
+}
+
+#formulario{
+    width: 35%;
+    position: relative;
+    left: 32%;
 }
